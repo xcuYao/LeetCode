@@ -79,10 +79,10 @@ class Solution02 {
         var res = Solution02().addTwoNumbers(l1, l2)
         var flag = true
         while flag {
-            print("\(res?.val)")
+            print("\(res?.val ?? -1)")
             res = res?.next
             if res?.next == nil {
-                print("\(res?.val)")
+                print("\(res?.val ?? -1)")
                 flag = false
             }
         }

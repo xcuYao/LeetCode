@@ -12,5 +12,7 @@ print("Hello, World!")
 
 //Solution01.test()
 
-Solution02.test()
+//Solution02.test()
+
+Solution03.test()
 

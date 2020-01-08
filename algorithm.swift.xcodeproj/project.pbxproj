@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_无重复字符的最长字串.swift"; sourceTree = "<group>"; };
 		BD48AE9F23BE51360023D694 /* algorithm.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BD48AEA923BE51C80023D694 /* 编码技巧.md */,
 				BD9D812B23C4E27100338420 /* 01_两数之和.swift */,
 				BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */,
+				BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */,
 			);
 			path = algorithm.swift;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
+				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
