@@ -60,29 +60,58 @@ class Solution05 {
 //        return ans
 //    }
 
-    var res = ""
+//    var res = ""
+//
+//    // 解法2 中心扩散法
+//    // 存在两种回文的情况 aba abba
+//    // 所以从中心扩散 可能为(i,i) 即一个字母 b
+//    //             也可能为(i, i+1) 即两个字母 bb
+//    // 遍历一边 针对两种情况 分别调用helper方法 检查回文 找出长度最长的那一个
+//    // helper方法 就判断left和rigth是否相同即可，相同left左移 rigth右移
+//    // 不同即可结束
+//    // 时间复杂度O(n^2) 空间复杂度O(1)
+//    func longestPalindrome(_ s: String) -> String {
+//        if s.count == 0 {
+//            return s
+//        }
+//        let characters = Array(s)
+//        for i in 0..<characters.count {
+//            helper(s: s, left: i, right: i)
+//            helper(s: s, left: i, right: i + 1)
+//        }
+//        return res
+//    }
+//
+//    func helper(s: String, left: Int, right: Int) {
+//        var l = left
+//        var r = right
+//        let characters = Array(s)
+//        while l >= 0 && r < s.count && characters[l] == characters[r] {
+//            l -= 1
+//            r += 1
+//        }
+//        let cur = String(characters[l + 1..<r])
+//        if cur.count > res.count {
+//            res = cur
+//        }
+//    }
 
-    // 解法2 中心扩散法
-    // 存在两种回文的情况 aba abba
-    // 所以从中心扩散 可能为(i,i) 即一个字母 b
-    //             也可能为(i, i+1) 即两个字母 bb
-    // 遍历一边 针对两种情况 分别调用helper方法 检查回文 找出长度最长的那一个
-    // helper方法 就判断left和rigth是否相同即可，相同left左移 rigth右移
-    // 不同即可结束
-    // 时间复杂度O(n^2) 空间复杂度O(1)
     func longestPalindrome(_ s: String) -> String {
         if s.count == 0 {
             return s
         }
         let characters = Array(s)
+        var curMax: String = ""
         for i in 0..<characters.count {
-            helper(s: s, left: i, right: i)
-            helper(s: s, left: i, right: i + 1)
+            let c1 = helper(s: s, left: i, right: i)
+            let c2 = helper(s: s, left: i, right: i + 1)
+            let cc = c1.count > c2.count ? c1 : c2
+            curMax = cc.count > curMax.count ? cc : curMax
         }
-        return res
+        return curMax
     }
 
-    func helper(s: String, left: Int, right: Int) {
+    func helper(s: String, left: Int, right: Int) -> String {
         var l = left
         var r = right
         let characters = Array(s)
@@ -91,13 +120,11 @@ class Solution05 {
             r += 1
         }
         let cur = String(characters[l + 1..<r])
-        if cur.count > res.count {
-            res = cur
-        }
+        return cur
     }
 
     static func test() {
-        let s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        let s = "321012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210012321001232100123210123210012321001232100123210123"
         let res = Solution05().longestPalindrome(s)
         print("\(res)")
     }
