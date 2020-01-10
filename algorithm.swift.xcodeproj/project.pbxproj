@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */; };
 		BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */; };
+		BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_无重复字符的最长字串.swift"; sourceTree = "<group>"; };
 		BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05_最长回文子串.swift"; sourceTree = "<group>"; };
+		BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27_移除元素.swift"; sourceTree = "<group>"; };
 		BD48AE9F23BE51360023D694 /* algorithm.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
@@ -47,6 +49,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD3A467C23C8EE0900C4575D /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		BD3A467D23C8EE7D00C4575D /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		BD3A467E23C8EE8200C4575D /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		BD3A467F23C8EE8700C4575D /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		BD3A468023C8EE8D00C4575D /* Backtracking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backtracking;
+			sourceTree = "<group>";
+		};
+		BD3A468123C8EE9600C4575D /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		BD3A468223C8EEA300C4575D /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		BD3A468323C8EEAB00C4575D /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		BD3A468423C8EEB300C4575D /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		BD3A468523C8EEBD00C4575D /* DFS&BFS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DFS&BFS";
+			sourceTree = "<group>";
+		};
+		BD3A468623C8EEC800C4575D /* Stack&PriorityQueue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Stack&PriorityQueue";
+			sourceTree = "<group>";
+		};
+		BD3A468723C8EEDC00C4575D /* BitManioulation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BitManioulation;
+			sourceTree = "<group>";
+		};
+		BD3A468823C8EEEA00C4575D /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TopologicalSort;
+			sourceTree = "<group>";
+		};
+		BD3A468923C8EEFC00C4575D /* Random */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Random;
+			sourceTree = "<group>";
+		};
+		BD3A468A23C8EF0500C4575D /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		BD3A468B23C8EF0C00C4575D /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
+		BD3A468C23C8EF1400C4575D /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
+		BD3A468D23C8EF1B00C4575D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
 		BD48AE9623BE51360023D694 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +195,24 @@
 		BD48AEA123BE51360023D694 /* algorithm.swift */ = {
 			isa = PBXGroup;
 			children = (
+				BD3A467C23C8EE0900C4575D /* Array */,
+				BD3A467D23C8EE7D00C4575D /* String */,
+				BD3A467E23C8EE8200C4575D /* Math */,
+				BD3A467F23C8EE8700C4575D /* Tree */,
+				BD3A468023C8EE8D00C4575D /* Backtracking */,
+				BD3A468123C8EE9600C4575D /* DynamicProgramming */,
+				BD3A468223C8EEA300C4575D /* LinkedList */,
+				BD3A468323C8EEAB00C4575D /* BinarySearch */,
+				BD3A468423C8EEB300C4575D /* Matrix */,
+				BD3A468523C8EEBD00C4575D /* DFS&BFS */,
+				BD3A468623C8EEC800C4575D /* Stack&PriorityQueue */,
+				BD3A468723C8EEDC00C4575D /* BitManioulation */,
+				BD3A468823C8EEEA00C4575D /* TopologicalSort */,
+				BD3A468923C8EEFC00C4575D /* Random */,
+				BD3A468A23C8EF0500C4575D /* Graph */,
+				BD3A468B23C8EF0C00C4575D /* UnionFind */,
+				BD3A468C23C8EF1400C4575D /* Trie */,
+				BD3A468D23C8EF1B00C4575D /* Design */,
 				BD48AEA223BE51360023D694 /* main.swift */,
 				BD48AEA923BE51C80023D694 /* 编码技巧.md */,
 				BD9D812B23C4E27100338420 /* 01_两数之和.swift */,
@@ -138,6 +285,7 @@
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
+				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
