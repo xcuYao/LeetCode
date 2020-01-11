@@ -10,6 +10,7 @@
 		BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */; };
 		BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */; };
 		BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */; };
+		BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
@@ -31,6 +32,7 @@
 		BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_无重复字符的最长字串.swift"; sourceTree = "<group>"; };
 		BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05_最长回文子串.swift"; sourceTree = "<group>"; };
 		BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27_移除元素.swift"; sourceTree = "<group>"; };
+		BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26_删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		BD48AE9F23BE51360023D694 /* algorithm.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */,
+				BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
+				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
