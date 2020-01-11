@@ -65,4 +65,14 @@ class Solution27 {
         }
         return ans
     }
+
+    static func test() {
+        var nums = [1, 1, 12, 3, 4]
+        let target = 3
+        print("27_移除元素")
+        print("原数组: \(nums)")
+        let end = Solution27().removeElement(&nums, target)
+        print("移除目标元素: \(target)  之后: \(nums[0..<end])")
+    }
 }
+

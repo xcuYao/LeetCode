@@ -53,6 +53,8 @@ import Foundation
 // j为快指针 开始从i+1位置移动
 // 当发现与nums[i]不相同的元素时 则加入(慢指针向前移动 并且将j位置值填入i位置)
 // j走到头之后 nums[0...i]既非重复项
+// 排序数组的表明 重复元素是连续的
+// 若重复元素不连续 则不适用
 class Solution26 {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         var i = 0
@@ -63,5 +65,13 @@ class Solution26 {
             }
         }
         return i + 1
+    }
+
+    static func test() {
+        var nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+        print("26_删除排序数组中的重复项")
+        print("原数组:\(nums)")
+        let end = Solution26().removeDuplicates(&nums)
+        print("结果:\(nums[0..<end])")
     }
 }
