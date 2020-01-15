@@ -57,8 +57,8 @@ import Foundation
 class Solution27 {
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
         var ans = 0
-        for num in nums {
-            if num != val {
+        for num in nums{
+            if num != val{
                 nums[ans] = num
                 ans += 1
             }

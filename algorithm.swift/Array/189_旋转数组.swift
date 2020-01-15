@@ -39,12 +39,10 @@ import Foundation
 // 空间复杂度 O(n) 时间复杂度 O(n)
 class Solution189 {
     func rotate(_ nums: inout [Int], _ k: Int) {
-        if nums.isEmpty {
-            return
-        }
+        if nums.isEmpty { return }
         var newNums = nums
-        for i in 0..<nums.count {
-            newNums[(i + k) % nums.count] = nums[i]
+        for index in 0..<nums.count {
+            newNums[(index + k) % nums.count] = nums[index]
         }
         nums = newNums
     }

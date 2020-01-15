@@ -16,6 +16,7 @@
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
+		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
 		BD9D812B23C4E27100338420 /* 01_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01_两数之和.swift"; sourceTree = "<group>"; };
 		BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02_两数相加.swift"; sourceTree = "<group>"; };
+		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */,
 				BD3A469223CA26C600C4575D /* 80_删除排序数组中的重复项2.swift */,
 				BD3A469423CA2A5000C4575D /* 189_旋转数组.swift */,
+				BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
+				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -431,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
