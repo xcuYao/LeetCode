@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */; };
+		BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */; };
 		BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */; };
 		BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */; };
 		BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "277_搜寻名人.swift"; sourceTree = "<group>"; };
+		BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "299_猜数字游戏.swift"; sourceTree = "<group>"; };
 		BD3A467823C62ACD00C4575D /* 03_无重复字符的最长字串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_无重复字符的最长字串.swift"; sourceTree = "<group>"; };
 		BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05_最长回文子串.swift"; sourceTree = "<group>"; };
 		BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27_移除元素.swift"; sourceTree = "<group>"; };
@@ -62,9 +66,11 @@
 			children = (
 				BD3A468E23C8EFED00C4575D /* 27_移除元素.swift */,
 				BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */,
+				BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */,
 				BD3A469223CA26C600C4575D /* 80_删除排序数组中的重复项2.swift */,
 				BD3A469423CA2A5000C4575D /* 189_旋转数组.swift */,
-				BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */,
+				BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */,
+				BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -300,6 +306,8 @@
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
+				BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */,
+				BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
 				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
