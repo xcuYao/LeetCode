@@ -84,19 +84,19 @@ class Solution134 {
         var start = 0
         for i in 0..<gas.count {
             curr += gas[i] - cost[i]
-            print("第\(i)个加油站 当前油量:\(curr)")
             if curr < 0 {
                 start = i + 1
                 curr = 0
-                print("当前油量小于0 起点选择错误 修改起点为\(i + 1) 油量置为0")
             }
             total += gas[i] - cost[i]
         }
+
         return total < 0 ? -1 : start
     }
 
     static func test() {
         let index = Solution134().canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2])
+        print("134_加油站")
         print("zzzz: \(index)")
     }
 

@@ -24,7 +24,9 @@ print("Hello, World!")
 
 //Solution299.test()
 
-Solution134.test()
+//Solution134.test()
+
+Solution118.test()
 
 //------------------------------
 

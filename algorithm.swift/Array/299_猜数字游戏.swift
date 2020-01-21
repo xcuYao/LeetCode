@@ -77,6 +77,7 @@ class Solution299 {
 
     static func test() {
         let res = Solution299().getHint("1123", "0111")
+        print("299_猜数字游戏")
         print("\(res)")
     }
 
