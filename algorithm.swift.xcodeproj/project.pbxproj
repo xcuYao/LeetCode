@@ -19,8 +19,10 @@
 		BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */; };
+		BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
+		BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */; };
 		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +53,10 @@
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
 		BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118_杨辉三角.swift"; sourceTree = "<group>"; };
+		BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "278_第一个错误的版本.swift"; sourceTree = "<group>"; };
 		BD9D812B23C4E27100338420 /* 01_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01_两数之和.swift"; sourceTree = "<group>"; };
 		BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02_两数相加.swift"; sourceTree = "<group>"; };
+		BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "35_搜索插入装置.swift"; sourceTree = "<group>"; };
 		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +133,8 @@
 		BD3A468323C8EEAB00C4575D /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
+				BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */,
+				BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */,
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
 				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,
@@ -321,6 +328,7 @@
 				BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */,
 				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */,
+				BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */,
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
 			);

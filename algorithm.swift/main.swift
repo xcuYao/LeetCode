@@ -27,7 +27,7 @@ print("Hello, World!")
 //Solution134.test()
 
 //Solution118.test()
-Solution119.test()
+//Solution119.test()
 
 //------------------------------
 
@@ -40,4 +40,7 @@ Solution119.test()
 //Solution05.test()
 
 
-
+// 二分查找类型题目
+//------------------------------
+//Solution278.test()
+Solution35.test()
