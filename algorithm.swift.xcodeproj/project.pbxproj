@@ -23,7 +23,10 @@
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
 		BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */; };
+		BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE4B62465098A0041BE4A /* 33_搜索旋转数组.swift */; };
 		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
+		BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */; };
+		BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,7 +60,10 @@
 		BD9D812B23C4E27100338420 /* 01_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01_两数之和.swift"; sourceTree = "<group>"; };
 		BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02_两数相加.swift"; sourceTree = "<group>"; };
 		BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "35_搜索插入装置.swift"; sourceTree = "<group>"; };
+		BDADE4B62465098A0041BE4A /* 33_搜索旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33_搜索旋转数组.swift"; sourceTree = "<group>"; };
 		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
+		BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "81_搜索旋转排序数组2.swift"; sourceTree = "<group>"; };
+		BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153_搜索旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,9 @@
 			children = (
 				BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */,
 				BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */,
+				BDADE4B62465098A0041BE4A /* 33_搜索旋转数组.swift */,
+				BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */,
+				BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -317,6 +326,7 @@
 				BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */,
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
+				BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */,
 				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,
 				BD3A469323CA26C600C4575D /* 80_删除排序数组中的重复项2.swift in Sources */,
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
@@ -324,10 +334,12 @@
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
 				BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */,
 				BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */,
+				BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
 				BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */,
 				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */,
+				BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */,
 				BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */,
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,

@@ -43,4 +43,6 @@ print("Hello, World!")
 // 二分查找类型题目
 //------------------------------
 //Solution278.test()
-Solution35.test()
+//Solution35.test()
+//Solution33.test()
+Solution81.test()
