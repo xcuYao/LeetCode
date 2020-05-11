@@ -24,6 +24,7 @@
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
 		BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */; };
 		BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDADE4B62465098A0041BE4A /* 33_搜索旋转数组.swift */; };
+		BDE321A62469744100AA7A7B /* 206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE321A52469744100AA7A7B /* 206_反转链表.swift */; };
 		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
 		BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */; };
 		BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */; };
@@ -61,6 +62,7 @@
 		BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02_两数相加.swift"; sourceTree = "<group>"; };
 		BDADE4B4246447B30041BE4A /* 35_搜索插入装置.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "35_搜索插入装置.swift"; sourceTree = "<group>"; };
 		BDADE4B62465098A0041BE4A /* 33_搜索旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33_搜索旋转数组.swift"; sourceTree = "<group>"; };
+		BDE321A52469744100AA7A7B /* 206_反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "206_反转链表.swift"; sourceTree = "<group>"; };
 		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
 		BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "81_搜索旋转排序数组2.swift"; sourceTree = "<group>"; };
 		BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153_搜索旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		BD3A468223C8EEA300C4575D /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				BDE321A52469744100AA7A7B /* 206_反转链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
 				BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */,
 				BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */,
+				BDE321A62469744100AA7A7B /* 206_反转链表.swift in Sources */,
 				BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
 				BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */,
