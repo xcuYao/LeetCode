@@ -16,6 +16,11 @@
 		BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */; };
 		BD3A469323CA26C600C4575D /* 80_删除排序数组中的重复项2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A469223CA26C600C4575D /* 80_删除排序数组中的重复项2.swift */; };
 		BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A469423CA2A5000C4575D /* 189_旋转数组.swift */; };
+		BD3FE4A524753F420011DA43 /* 92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FE4A424753F420011DA43 /* 92_反转链表2.swift */; };
+		BD3FE4C8247BB18B0011DA43 /* 144_二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FE4C7247BB18B0011DA43 /* 144_二叉树的前序遍历.swift */; };
+		BD3FE4CA247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FE4C9247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift */; };
+		BD3FE4CC247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FE4CB247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift */; };
+		BD3FE4CE247BD0670011DA43 /* 102_二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3FE4CD247BD0670011DA43 /* 102_二叉树的层序遍历.swift */; };
 		BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD4F04A5246ACEFA002D6929 /* 24_两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */; };
@@ -55,6 +60,11 @@
 		BD3A469023CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26_删除排序数组中的重复项.swift"; sourceTree = "<group>"; };
 		BD3A469223CA26C600C4575D /* 80_删除排序数组中的重复项2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "80_删除排序数组中的重复项2.swift"; sourceTree = "<group>"; };
 		BD3A469423CA2A5000C4575D /* 189_旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189_旋转数组.swift"; sourceTree = "<group>"; };
+		BD3FE4A424753F420011DA43 /* 92_反转链表2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "92_反转链表2.swift"; sourceTree = "<group>"; };
+		BD3FE4C7247BB18B0011DA43 /* 144_二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144_二叉树的前序遍历.swift"; sourceTree = "<group>"; };
+		BD3FE4C9247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94_二叉树的中序遍历.swift"; sourceTree = "<group>"; };
+		BD3FE4CB247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145_二叉树的后序遍历.swift"; sourceTree = "<group>"; };
+		BD3FE4CD247BD0670011DA43 /* 102_二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102_二叉树的层序遍历.swift"; sourceTree = "<group>"; };
 		BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "119_杨辉三角2.swift"; sourceTree = "<group>"; };
 		BD48AE9F23BE51360023D694 /* algorithm.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -119,6 +129,10 @@
 		BD3A467F23C8EE8700C4575D /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				BD3FE4C7247BB18B0011DA43 /* 144_二叉树的前序遍历.swift */,
+				BD3FE4C9247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift */,
+				BD3FE4CB247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift */,
+				BD3FE4CD247BD0670011DA43 /* 102_二叉树的层序遍历.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -140,6 +154,7 @@
 		BD3A468223C8EEA300C4575D /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				BD3FE4A424753F420011DA43 /* 92_反转链表2.swift */,
 				BDE321A52469744100AA7A7B /* 206_反转链表.swift */,
 				BDE321A7246A3A0C00AA7A7B /* 141_环形链表.swift */,
 				BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */,
@@ -338,10 +353,12 @@
 				BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */,
 				BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */,
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
+				BD3FE4A524753F420011DA43 /* 92_反转链表2.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
 				BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */,
 				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,
 				BD3A469323CA26C600C4575D /* 80_删除排序数组中的重复项2.swift in Sources */,
+				BD3FE4CC247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift in Sources */,
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
 				BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */,
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
@@ -350,11 +367,14 @@
 				BDE321A62469744100AA7A7B /* 206_反转链表.swift in Sources */,
 				BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */,
 				BDE321A8246A3A0C00AA7A7B /* 141_环形链表.swift in Sources */,
+				BD3FE4CE247BD0670011DA43 /* 102_二叉树的层序遍历.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
 				BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */,
+				BD3FE4C8247BB18B0011DA43 /* 144_二叉树的前序遍历.swift in Sources */,
 				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */,
 				BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */,
+				BD3FE4CA247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift in Sources */,
 				BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */,
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
