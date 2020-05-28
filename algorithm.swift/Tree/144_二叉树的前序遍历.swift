@@ -27,5 +27,24 @@
 import Foundation
 
 class Solution144 {
-    
+
+    public class TreeNode {
+        public var val: Int
+        public var left: TreeNode?
+        public var right: TreeNode?
+        public init(_ val: Int) {
+            self.val = val
+            self.left = nil
+            self.right = nil
+        }
+    }
+
+    func preorderTraversal(_ root: TreeNode?) -> [Int] {
+        var res: [Int] = []
+        guard let r = root else { return [] }
+        res.append(r.val)
+        res += preorderTraversal(r.left)
+        res += preorderTraversal(r.right)
+        return res
+    }
 }
