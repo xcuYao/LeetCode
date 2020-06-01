@@ -50,4 +50,7 @@ print("Hello, World!")
 
 // 链表相关题目
 //------------------------------
-Solution206.test()
+//Solution206.test()
+
+
+Solution198.test()
