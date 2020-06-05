@@ -43,6 +43,7 @@
 		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
 		BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */; };
 		BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */; };
+		BDF97C9F24894E2B001E9F08 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97C9E24894E2B001E9F08 /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +97,7 @@
 		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
 		BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "81_搜索旋转排序数组2.swift"; sourceTree = "<group>"; };
 		BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153_搜索旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
+		BDF97C9E24894E2B001E9F08 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				BD0348512484D94000FC3711 /* 257_二叉树的所有路径.swift */,
 				BD0348532484D96300FC3711 /* 112_路径总和.swift */,
 				BD0348552484D98200FC3711 /* 113_路径总和II.swift */,
+				BDF97C9E24894E2B001E9F08 /* Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF97C9F24894E2B001E9F08 /* Tree.swift in Sources */,
 				BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */,
 				BD0348542484D96300FC3711 /* 112_路径总和.swift in Sources */,
 				BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */,
