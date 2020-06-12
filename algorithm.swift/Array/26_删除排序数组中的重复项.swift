@@ -57,6 +57,9 @@ import Foundation
 // 若重复元素不连续 则不适用
 class Solution26 {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
+        if nums.count <= 1 {
+            return nums.count
+        }
         var i = 0
         for j in 1..<nums.count {
             if nums[j] != nums[i] {

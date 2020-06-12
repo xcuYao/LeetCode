@@ -69,7 +69,4 @@ class Solution113 {
         return result
     }
 
-
-   
-
 }

@@ -44,6 +44,8 @@
 		BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */; };
 		BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */; };
 		BDF97C9F24894E2B001E9F08 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97C9E24894E2B001E9F08 /* Tree.swift */; };
+		BDF97CA1248A6133001E9F08 /* 16_最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */; };
+		BDF97CA5248A61EE001E9F08 /* 53_最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,6 +100,8 @@
 		BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "81_搜索旋转排序数组2.swift"; sourceTree = "<group>"; };
 		BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153_搜索旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
 		BDF97C9E24894E2B001E9F08 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16_最接近的三数之和.swift"; sourceTree = "<group>"; };
+		BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53_最大子序和.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				BD14DA0F23D088E5006B0295 /* 134_加油站.swift */,
 				BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */,
 				BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */,
+				BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */,
+				BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -398,6 +404,7 @@
 				BD0348522484D94000FC3711 /* 257_二叉树的所有路径.swift in Sources */,
 				BD0348442480A2F600FC3711 /* 198_打家劫舍.swift in Sources */,
 				BDADE4B72465098A0041BE4A /* 33_搜索旋转数组.swift in Sources */,
+				BDF97CA5248A61EE001E9F08 /* 53_最大子序和.swift in Sources */,
 				BDE321A8246A3A0C00AA7A7B /* 141_环形链表.swift in Sources */,
 				BD3FE4CE247BD0670011DA43 /* 102_二叉树的层序遍历.swift in Sources */,
 				BD3A469523CA2A5000C4575D /* 189_旋转数组.swift in Sources */,
@@ -406,6 +413,7 @@
 				BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */,
 				BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */,
 				BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */,
+				BDF97CA1248A6133001E9F08 /* 16_最接近的三数之和.swift in Sources */,
 				BD3FE4CA247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift in Sources */,
 				BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */,
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,

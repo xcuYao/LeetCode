@@ -13,21 +13,16 @@ print("Hello, World!")
 // 数组类型题目
 
 //Solution26.test()
-
 //Solution27.test()
-
 //Solution80.test()
-
 //Solution189.test()
-
 //Solution41.test()
-
 //Solution299.test()
-
-//Solution134.test()
-
+//Soution134.test()
 //Solution118.test()
 //Solution119.test()
+//Solution16.test()
+Solution53.test()
 
 //------------------------------
 
@@ -58,4 +53,8 @@ print("Hello, World!")
 // 树相关题目
 //-------------------------------
 //Solution113.test()
-Tree.test()
+//Tree.test()
+
+
+//let sizeMB = String(format: "%.2f", Float(22222222) / (1024 * 1024))
+//print("sizeMB: \(sizeMB)")
