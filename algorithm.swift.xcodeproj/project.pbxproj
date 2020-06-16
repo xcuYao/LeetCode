@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394EC206249921C700AA2D47 /* 55_跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394EC205249921C700AA2D47 /* 55_跳跃游戏.swift */; };
 		BD0348442480A2F600FC3711 /* 198_打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0348432480A2F600FC3711 /* 198_打家劫舍.swift */; };
 		BD03484C2484A54E00FC3711 /* 100_相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03484B2484A54E00FC3711 /* 100_相同的树.swift */; };
 		BD03484E2484D16800FC3711 /* 101_对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03484D2484D16800FC3711 /* 101_对称二叉树.swift */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		394EC205249921C700AA2D47 /* 55_跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55_跳跃游戏.swift"; sourceTree = "<group>"; };
 		BD0348432480A2F600FC3711 /* 198_打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198_打家劫舍.swift"; sourceTree = "<group>"; };
 		BD03484B2484A54E00FC3711 /* 100_相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100_相同的树.swift"; sourceTree = "<group>"; };
 		BD03484D2484D16800FC3711 /* 101_对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101_对称二叉树.swift"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */,
 				BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */,
 				BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */,
+				394EC205249921C700AA2D47 /* 55_跳跃游戏.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */,
 				BD48AEA323BE51360023D694 /* main.swift in Sources */,
 				BD3FE4A524753F420011DA43 /* 92_反转链表2.swift in Sources */,
+				394EC206249921C700AA2D47 /* 55_跳跃游戏.swift in Sources */,
 				BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */,
 				BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */,
 				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,

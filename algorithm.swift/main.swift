@@ -22,7 +22,7 @@ print("Hello, World!")
 //Solution118.test()
 //Solution119.test()
 //Solution16.test()
-Solution53.test()
+//Solution53.test()
 
 //------------------------------
 
@@ -58,3 +58,36 @@ Solution53.test()
 
 //let sizeMB = String(format: "%.2f", Float(22222222) / (1024 * 1024))
 //print("sizeMB: \(sizeMB)")
+
+
+class S6{
+    
+    func reverse(number: Int) -> Int {
+        var reverse = 0
+        var num = number
+        while num > 0 {
+            reverse *= 10
+            reverse += num % 10
+            num /= 10
+            print("reverse: \(reverse) num: \(num)")
+        }
+        return reverse
+    }
+
+    static func test() {
+        let num = 101
+        let s = S6()
+        let res = s.reverse(number: num)
+        print(res)
+        
+//        101 % 10 = 1
+//        101 / 10 = 10
+//        10 % 10  = 1
+//        10 / 10 = 1
+//        1 % 10 = 1
+//        1 / 10 = 0
+        
+    }
+}
+
+S6.test()
