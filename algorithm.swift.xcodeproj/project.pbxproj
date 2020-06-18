@@ -44,6 +44,7 @@
 		BDEFB9AE23CD73DC006D40DE /* 41_缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */; };
 		BDF7782C246580870038C420 /* 81_搜索旋转排序数组2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */; };
 		BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */; };
+		BDF7EFC9249B8AE300E03D0A /* 287_寻找重复数.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7EFC8249B8AE300E03D0A /* 287_寻找重复数.swift */; };
 		BDF97C9F24894E2B001E9F08 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97C9E24894E2B001E9F08 /* Tree.swift */; };
 		BDF97CA1248A6133001E9F08 /* 16_最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */; };
 		BDF97CA5248A61EE001E9F08 /* 53_最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */; };
@@ -101,6 +102,7 @@
 		BDEFB9AD23CD73DC006D40DE /* 41_缺失的第一个正数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41_缺失的第一个正数.swift"; sourceTree = "<group>"; };
 		BDF7782B246580870038C420 /* 81_搜索旋转排序数组2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "81_搜索旋转排序数组2.swift"; sourceTree = "<group>"; };
 		BDF7782D2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153_搜索旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
+		BDF7EFC8249B8AE300E03D0A /* 287_寻找重复数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "287_寻找重复数.swift"; sourceTree = "<group>"; };
 		BDF97C9E24894E2B001E9F08 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16_最接近的三数之和.swift"; sourceTree = "<group>"; };
 		BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53_最大子序和.swift"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BDF97CA0248A6133001E9F08 /* 16_最接近的三数之和.swift */,
 				BDF97CA4248A61EE001E9F08 /* 53_最大子序和.swift */,
 				394EC205249921C700AA2D47 /* 55_跳跃游戏.swift */,
+				BDF7EFC8249B8AE300E03D0A /* 287_寻找重复数.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				BD3FE4CC247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift in Sources */,
 				BD03484C2484A54E00FC3711 /* 100_相同的树.swift in Sources */,
 				BD0348562484D98200FC3711 /* 113_路径总和II.swift in Sources */,
+				BDF7EFC9249B8AE300E03D0A /* 287_寻找重复数.swift in Sources */,
 				BD03484E2484D16800FC3711 /* 101_对称二叉树.swift in Sources */,
 				BD3A467B23C7902E00C4575D /* 05_最长回文子串.swift in Sources */,
 				BD0348502484D92100FC3711 /* 226_翻转二叉树.swift in Sources */,

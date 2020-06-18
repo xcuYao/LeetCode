@@ -59,6 +59,7 @@ print("Hello, World!")
 //let sizeMB = String(format: "%.2f", Float(22222222) / (1024 * 1024))
 //print("sizeMB: \(sizeMB)")
 
+<<<<<<< HEAD
 
 class S6{
     
@@ -91,3 +92,4 @@ class S6{
 }
 
 S6.test()
+Solution287.test()
