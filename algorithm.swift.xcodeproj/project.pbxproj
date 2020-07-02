@@ -15,6 +15,7 @@
 		BD0348522484D94000FC3711 /* 257_二叉树的所有路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0348512484D94000FC3711 /* 257_二叉树的所有路径.swift */; };
 		BD0348542484D96300FC3711 /* 112_路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0348532484D96300FC3711 /* 112_路径总和.swift */; };
 		BD0348562484D98200FC3711 /* 113_路径总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0348552484D98200FC3711 /* 113_路径总和II.swift */; };
+		BD0AF15C24AE3DD4001A659E /* 605_种花问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AF15B24AE3DD4001A659E /* 605_种花问题.swift */; };
 		BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */; };
 		BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */; };
 		BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0F23D088E5006B0295 /* 134_加油站.swift */; };
@@ -72,6 +73,7 @@
 		BD0348512484D94000FC3711 /* 257_二叉树的所有路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257_二叉树的所有路径.swift"; sourceTree = "<group>"; };
 		BD0348532484D96300FC3711 /* 112_路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112_路径总和.swift"; sourceTree = "<group>"; };
 		BD0348552484D98200FC3711 /* 113_路径总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113_路径总和II.swift"; sourceTree = "<group>"; };
+		BD0AF15B24AE3DD4001A659E /* 605_种花问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605_种花问题.swift"; sourceTree = "<group>"; };
 		BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "277_搜寻名人.swift"; sourceTree = "<group>"; };
 		BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "299_猜数字游戏.swift"; sourceTree = "<group>"; };
 		BD14DA0F23D088E5006B0295 /* 134_加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134_加油站.swift"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				394EC205249921C700AA2D47 /* 55_跳跃游戏.swift */,
 				BDF7EFC8249B8AE300E03D0A /* 287_寻找重复数.swift */,
 				BDF7EFCA249B9BA900E03D0A /* 56_合并区间.swift */,
+				BD0AF15B24AE3DD4001A659E /* 605_种花问题.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
 				BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */,
 				BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */,
+				BD0AF15C24AE3DD4001A659E /* 605_种花问题.swift in Sources */,
 				BDF7EFCB249B9BA900E03D0A /* 56_合并区间.swift in Sources */,
 				BDE321A62469744100AA7A7B /* 206_反转链表.swift in Sources */,
 				BD0348522484D94000FC3711 /* 257_二叉树的所有路径.swift in Sources */,
