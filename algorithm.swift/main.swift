@@ -59,37 +59,8 @@ print("Hello, World!")
 //let sizeMB = String(format: "%.2f", Float(22222222) / (1024 * 1024))
 //print("sizeMB: \(sizeMB)")
 
-<<<<<<< HEAD
-
-class S6{
-    
-    func reverse(number: Int) -> Int {
-        var reverse = 0
-        var num = number
-        while num > 0 {
-            reverse *= 10
-            reverse += num % 10
-            num /= 10
-            print("reverse: \(reverse) num: \(num)")
-        }
-        return reverse
-    }
-
-    static func test() {
-        let num = 101
-        let s = S6()
-        let res = s.reverse(number: num)
-        print(res)
-        
-//        101 % 10 = 1
-//        101 / 10 = 10
-//        10 % 10  = 1
-//        10 / 10 = 1
-//        1 % 10 = 1
-//        1 / 10 = 0
-        
-    }
-}
-
-S6.test()
-Solution287.test()
+// Hot 100
+//Solution198.test()
+//Solution300.test()
+//Solution70.test()
+Solution64.test()
