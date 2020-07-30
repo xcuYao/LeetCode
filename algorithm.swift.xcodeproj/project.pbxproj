@@ -36,6 +36,7 @@
 		BD4F04A5246ACEFA002D6929 /* 24_两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */; };
 		BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */; };
 		BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */; };
+		BD94A0F324D2CDB300A3CEA1 /* 406_根据身高重建队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */; };
 		BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
 		BD9D812E23C4E7FA00338420 /* 02_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */; };
@@ -101,6 +102,7 @@
 		BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24_两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118_杨辉三角.swift"; sourceTree = "<group>"; };
 		BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "328_奇偶链表.swift"; sourceTree = "<group>"; };
+		BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "406_根据身高重建队列.swift"; sourceTree = "<group>"; };
 		BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "278_第一个错误的版本.swift"; sourceTree = "<group>"; };
 		BD9D812B23C4E27100338420 /* 01_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01_两数之和.swift"; sourceTree = "<group>"; };
 		BD9D812D23C4E7FA00338420 /* 02_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02_两数相加.swift"; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				BDA11AE124B6F1FE00204E19 /* 64_最小路径和.swift */,
 				BD0AF16124C9E61C001A659E /* 139_单词拆分.swift */,
 				BD0AF16324C9F4B2001A659E /* 215_数组中的第K个最大元素.swift */,
+				BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */,
 			);
 			path = "hot-100";
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				BDF7782E2465860D0038C420 /* 153_搜索旋转排序数组中的最小值.swift in Sources */,
 				BDF97CA1248A6133001E9F08 /* 16_最接近的三数之和.swift in Sources */,
 				BD3FE4CA247BB1CF0011DA43 /* 94_二叉树的中序遍历.swift in Sources */,
+				BD94A0F324D2CDB300A3CEA1 /* 406_根据身高重建队列.swift in Sources */,
 				BDADE4B5246447B30041BE4A /* 35_搜索插入装置.swift in Sources */,
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
