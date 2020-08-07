@@ -17,6 +17,8 @@
 		BD0AF15C24AE3DD4001A659E /* 605_种花问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AF15B24AE3DD4001A659E /* 605_种花问题.swift */; };
 		BD0AF16224C9E61C001A659E /* 139_单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AF16124C9E61C001A659E /* 139_单词拆分.swift */; };
 		BD0AF16424C9F4B2001A659E /* 215_数组中的第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AF16324C9F4B2001A659E /* 215_数组中的第K个最大元素.swift */; };
+		BD0E026624DBF1CF00206713 /* 114_二叉树展开为列表.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E026524DBF1CF00206713 /* 114_二叉树展开为列表.swift */; };
+		BD0E026824DC3A8900206713 /* 236_二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E026724DC3A8900206713 /* 236_二叉树的最近公共祖先.swift */; };
 		BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */; };
 		BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */; };
 		BD14DA1023D088E5006B0295 /* 134_加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14DA0F23D088E5006B0295 /* 134_加油站.swift */; };
@@ -81,6 +83,8 @@
 		BD0AF15B24AE3DD4001A659E /* 605_种花问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605_种花问题.swift"; sourceTree = "<group>"; };
 		BD0AF16124C9E61C001A659E /* 139_单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139_单词拆分.swift"; sourceTree = "<group>"; };
 		BD0AF16324C9F4B2001A659E /* 215_数组中的第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "215_数组中的第K个最大元素.swift"; sourceTree = "<group>"; };
+		BD0E026524DBF1CF00206713 /* 114_二叉树展开为列表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114_二叉树展开为列表.swift"; sourceTree = "<group>"; };
+		BD0E026724DC3A8900206713 /* 236_二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236_二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		BD14DA0823CEFE5A006B0295 /* 277_搜寻名人.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "277_搜寻名人.swift"; sourceTree = "<group>"; };
 		BD14DA0A23CEFE93006B0295 /* 299_猜数字游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "299_猜数字游戏.swift"; sourceTree = "<group>"; };
 		BD14DA0F23D088E5006B0295 /* 134_加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134_加油站.swift"; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 				BD0AF16124C9E61C001A659E /* 139_单词拆分.swift */,
 				BD0AF16324C9F4B2001A659E /* 215_数组中的第K个最大元素.swift */,
 				BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */,
+				BD0E026524DBF1CF00206713 /* 114_二叉树展开为列表.swift */,
+				BD0E026724DC3A8900206713 /* 236_二叉树的最近公共祖先.swift */,
 			);
 			path = "hot-100";
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0E026624DBF1CF00206713 /* 114_二叉树展开为列表.swift in Sources */,
 				BDF97C9F24894E2B001E9F08 /* Tree.swift in Sources */,
 				BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */,
 				BD0348542484D96300FC3711 /* 112_路径总和.swift in Sources */,
@@ -332,6 +339,7 @@
 				BDA11ADC24B45ABF00204E19 /* 300_最长上升子序列.swift in Sources */,
 				BDA11AE224B6F1FE00204E19 /* 64_最小路径和.swift in Sources */,
 				BD3A468F23C8EFED00C4575D /* 27_移除元素.swift in Sources */,
+				BD0E026824DC3A8900206713 /* 236_二叉树的最近公共祖先.swift in Sources */,
 				BD14DA0B23CEFE93006B0295 /* 299_猜数字游戏.swift in Sources */,
 				BD14DA0923CEFE5B006B0295 /* 277_搜寻名人.swift in Sources */,
 				BD0AF15C24AE3DD4001A659E /* 605_种花问题.swift in Sources */,
