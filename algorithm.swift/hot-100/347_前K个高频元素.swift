@@ -46,8 +46,31 @@ class Solution347 {
         return sorted[0..<k].map { $0.key }
     }
 
+    func topKFrequent2(_ nums: [Int], _ k: Int) -> [Int] {
+        /// 使用dic进行结果的保存
+        var dic: [Int: Int] = [:]
+        for num in nums {
+            dic[num] == nil ? (dic[num] = 1) : (dic[num]! += 1)
+        }
+
+        /// 桶排序
+        var array = Array(repeating: 0, count: nums.count + 1)
+        for key in dic.keys {
+            if let value = dic[key] {
+                array[value] = key
+            }
+        }
+        var res: [Int] = []
+        for i in stride(from: nums.count, to: 0, by: -1) {
+            if array[i] != 0 {
+                res.append(array[i])
+            }
+        }
+        return Array(res[0..<k])
+    }
+
     static func test() {
-        let nums = [1, 1, 1, 2, 2, 3]
+        let nums = [1, 2]
         let res = Solution347().topKFrequent(nums, 2)
         print("\(nums) ____ \(res)")
     }
