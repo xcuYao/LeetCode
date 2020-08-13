@@ -38,6 +38,7 @@
 		BD4F04A5246ACEFA002D6929 /* 24_两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */; };
 		BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */; };
 		BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */; };
+		BD74695B24E535DC00E74ABB /* 347_前K个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74695A24E535DC00E74ABB /* 347_前K个高频元素.swift */; };
 		BD94A0F324D2CDB300A3CEA1 /* 406_根据身高重建队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */; };
 		BD95758B24643C80000B4BFB /* 278_第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */; };
 		BD9D812C23C4E27100338420 /* 01_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D812B23C4E27100338420 /* 01_两数之和.swift */; };
@@ -106,6 +107,7 @@
 		BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24_两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118_杨辉三角.swift"; sourceTree = "<group>"; };
 		BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "328_奇偶链表.swift"; sourceTree = "<group>"; };
+		BD74695A24E535DC00E74ABB /* 347_前K个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347_前K个高频元素.swift"; sourceTree = "<group>"; };
 		BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "406_根据身高重建队列.swift"; sourceTree = "<group>"; };
 		BD95758A24643C80000B4BFB /* 278_第一个错误的版本.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "278_第一个错误的版本.swift"; sourceTree = "<group>"; };
 		BD9D812B23C4E27100338420 /* 01_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01_两数之和.swift"; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				BD94A0F224D2CDB300A3CEA1 /* 406_根据身高重建队列.swift */,
 				BD0E026524DBF1CF00206713 /* 114_二叉树展开为列表.swift */,
 				BD0E026724DC3A8900206713 /* 236_二叉树的最近公共祖先.swift */,
+				BD74695A24E535DC00E74ABB /* 347_前K个高频元素.swift */,
 			);
 			path = "hot-100";
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */,
 				BD3A467923C62ACD00C4575D /* 03_无重复字符的最长字串.swift in Sources */,
 				BD4F04A5246ACEFA002D6929 /* 24_两两交换链表中的节点.swift in Sources */,
+				BD74695B24E535DC00E74ABB /* 347_前K个高频元素.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
