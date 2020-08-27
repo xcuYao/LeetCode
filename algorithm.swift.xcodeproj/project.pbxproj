@@ -36,6 +36,7 @@
 		BD44239A23D6A85200D9754B /* 119_杨辉三角2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD44239923D6A85200D9754B /* 119_杨辉三角2.swift */; };
 		BD48AEA323BE51360023D694 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48AEA223BE51360023D694 /* main.swift */; };
 		BD4F04A5246ACEFA002D6929 /* 24_两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */; };
+		BD51AF5424F4174700D80F40 /* 912_排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51AF5324F4174700D80F40 /* 912_排序数组.swift */; };
 		BD676E4C23D6988E004DC147 /* 118_杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */; };
 		BD6F81F02475394A005AF4F4 /* 328_奇偶链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */; };
 		BD74695B24E535DC00E74ABB /* 347_前K个高频元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD74695A24E535DC00E74ABB /* 347_前K个高频元素.swift */; };
@@ -106,6 +107,7 @@
 		BD48AEA223BE51360023D694 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BD48AEA923BE51C80023D694 /* 编码技巧.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "编码技巧.md"; sourceTree = "<group>"; };
 		BD4F04A4246ACEFA002D6929 /* 24_两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24_两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		BD51AF5324F4174700D80F40 /* 912_排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "912_排序数组.swift"; sourceTree = "<group>"; };
 		BD676E4B23D6988E004DC147 /* 118_杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118_杨辉三角.swift"; sourceTree = "<group>"; };
 		BD6F81EF2475394A005AF4F4 /* 328_奇偶链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "328_奇偶链表.swift"; sourceTree = "<group>"; };
 		BD74695A24E535DC00E74ABB /* 347_前K个高频元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "347_前K个高频元素.swift"; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		BD48AEA123BE51360023D694 /* algorithm.swift */ = {
 			isa = PBXGroup;
 			children = (
+				BD51AF5224F4172400D80F40 /* Sort */,
 				BDA11AD624B4500D00204E19 /* hot-100 */,
 				BD3A467C23C8EE0900C4575D /* Array */,
 				BD3A467F23C8EE8700C4575D /* Tree */,
@@ -240,6 +243,14 @@
 				BD3A467A23C7902E00C4575D /* 05_最长回文子串.swift */,
 			);
 			path = algorithm.swift;
+			sourceTree = "<group>";
+		};
+		BD51AF5224F4172400D80F40 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				BD51AF5324F4174700D80F40 /* 912_排序数组.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		BDA11AD624B4500D00204E19 /* hot-100 */ = {
@@ -335,6 +346,7 @@
 				BDA11AE024B6C0DB00204E19 /* 70_爬楼梯.swift in Sources */,
 				BD3A469123CA1E0A00C4575D /* 26_删除排序数组中的重复项.swift in Sources */,
 				BD3A469323CA26C600C4575D /* 80_删除排序数组中的重复项2.swift in Sources */,
+				BD51AF5424F4174700D80F40 /* 912_排序数组.swift in Sources */,
 				BD3FE4CC247BB1FF0011DA43 /* 145_二叉树的后序遍历.swift in Sources */,
 				BD03484C2484A54E00FC3711 /* 100_相同的树.swift in Sources */,
 				BD0348562484D98200FC3711 /* 113_路径总和II.swift in Sources */,
